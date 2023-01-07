@@ -1,0 +1,115 @@
+
+body{
+    background-color: #eeeeee;
+    width: "100%";
+
+}
+.main { 
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  width: inherit;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logo {
+  border: 1px Solid gray;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  
+
+}
+.menuItem {  
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #7f60f9;
+}
+.body {
+  display: flex;
+  width: "100%";
+  margin-top: 20px;
+}
+.bodyText {
+  width: "50%";
+  margin-right: 20px;
+}
+.bodyImage {
+  width: "50%";
+}
+.missionTitle {
+  width: 650px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  color: #7f60f9;
+}
+.missionBody {
+  width: 511px;
+   font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+}
+
+.register {
+  border: 1px Solid gray;
+  border-radius: 100px;
+  width: 40vh;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.inputRegister{
+    background-color: inherit;
+    border: none;
+}
+.registerButton{
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #7f60f9;
+  height: 60px;
+  width: inherit;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.footerText {
+    color: #FFFFFF;
+    font-size: 12px;
+
+}
